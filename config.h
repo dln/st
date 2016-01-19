@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Roboto Mono:pixelsize=20:antialias=true:autohint=true";
+static char font[] = "Roboto Mono:pixelsize=15:antialias=true:autohint=true";
 // static char font[] = "Ubuntu Mono:pixelsize=23:antialias=true:autohint=true";
 static int borderpx = 1;
 
@@ -72,30 +72,30 @@ static unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-  "#1c1c1c",
-  "#df0000",
-  "#5fdf5f",
-  "#dfdf00",
-  "#00afff",
-  "#8b008b",
-  "#008b8b",
-  "#d0d0d0",
+  "#282a2e",
+  "#a54242",
+  "#8c9440",
+  "#de935f",
+  "#5f819d",
+  "#85678f",
+  "#5e8d87",
+  "#707880",
 
 	/* 8 bright colors */
-  "#000000",
-  "#df8787",
-  "#afdf87",
-  "#dfdfaf",
-  "#5fafdf",
-  "#dfafdf",
-  "#afdfdf",
-  "#ffffff",
+  "#373b41",
+  "#cc6666",
+  "#b5bd68",
+  "#f0c674",
+  "#81a2be",
+  "#b294bb",
+  "#8abeb7",
+  "#c5c8c6",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+	"#1d1f21",
+	"#c5c8c6",
 };
 
 
@@ -103,8 +103,8 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-static unsigned int defaultfg = 0;
-static unsigned int defaultbg = 15;
+static unsigned int defaultfg = 257;
+static unsigned int defaultbg = 256;
 static unsigned int defaultcs = 1;
 static unsigned int defaultrcs = 0;
 
