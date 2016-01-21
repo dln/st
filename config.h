@@ -7,7 +7,7 @@
  */
 static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Ubuntu Mono:pixelsize=23:antialias=true:autohint=true";
-static int borderpx = 1;
+static int borderpx = 6;
 
 /*
  * What program is execed by st depends of these precedence rules:
