@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Roboto Mono:pixelsize=15:antialias=true:autohint=true";
+static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Ubuntu Mono:pixelsize=23:antialias=true:autohint=true";
 static int borderpx = 1;
 
@@ -25,10 +25,11 @@ static char stty_args[] = "stty raw pass8 nl -echo -iexten -cstopb 115200";
 static char vtiden[] = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 0.48;
-// static float cwscale = 1.0;
-static float chscale = 1.15;
+// static float cwscale = 0.48;
+// static float chscale = 1.15;
 
+static float cwscale = 0.47;
+static float chscale = 1.3;
 /*
  * word delimiter string
  *
@@ -72,7 +73,8 @@ static unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-  "#282a2e",
+  // "#282a2e",
+  "#1d1f21",
   "#a54242",
   "#8c9440",
   "#de935f",
