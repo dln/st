@@ -28,8 +28,14 @@ static char vtiden[] = "\033[?6c";
 // static float cwscale = 0.48;
 // static float chscale = 1.15;
 
+// Roboto
 static float cwscale = 0.47;
 static float chscale = 1.3;
+
+// Source Code Pro
+// static float cwscale = 0.95;
+// static float chscale = 1.2;
+
 /*
  * word delimiter string
  *
