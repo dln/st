@@ -6,7 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
-static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
+// static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
+static char font[] = "Roboto Mono:pixelsize=14";
 static int borderpx = 6;
 
 /*
@@ -80,43 +81,39 @@ static unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-  // "#282a2e",
-  "#1d1f21",
-  "#a54242",
-  "#8c9440",
-  "#de935f",
-  "#5f819d",
-  "#85678f",
-  "#5e8d87",
-  "#707880",
+	"#212121",		/* 0: ANSI Color 0 */
+	"#b7141e",		/* 1: ANSI Color 1 */
+	"#457b23",		/* 2: ANSI Color 2 */
+	"#fc7b08",		/* 3: ANSI Color 3 */
+	"#134eb2",		/* 4: ANSI Color 4 */
+	"#550087",		/* 5: ANSI Color 5 */
+	"#0e707c",		/* 6: ANSI Color 6 */
+	"#eeeeee",		/* 7: ANSI Color 7 */
 
 	/* 8 bright colors */
-  "#373b41",
-  "#cc6666",
-  "#b5bd68",
-  "#f0c674",
-  "#81a2be",
-  "#b294bb",
-  "#8abeb7",
-  "#c5c8c6",
+	"#424242",		/* 8: ANSI Color 8 */
+	"#e83a3f",		/* 9: ANSI Color 9 */
+	"#7aba39",		/* 10: ANSI Color 10 */
+	"#fc8e08",		/* 11: ANSI Color 11 */
+	"#53a4f3",		/* 12: ANSI Color 12 */
+	"#a94dbb",		/* 13: ANSI Color 13 */
+	"#26bad1",		/* 14: ANSI Color 14 */
+	"#d8d8d8",		/* 15: ANSI Color 15 */
 
 	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#1d1f21",
-	"#c5c8c6",
+	[256] = "#fafafa",		/* 256: Background */
+	[257] = "#1d1d1c",		/* 257: Foreground */
+	[258] = "#16aec9",		/* 258: Cursor */
+	[259] = "#2d2d2c",		/* 259: Cursor Text */
+	/* No support for text highlight coloring; would be #4e4e4e. */
+	/* No support for highlight coloring; would be #c1c1c1. */
+	/* No support for bold coloring; would be #29363d. */
 };
 
-
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
-static unsigned int defaultfg = 257;
-static unsigned int defaultbg = 256;
-static unsigned int defaultcs = 1;
-static unsigned int defaultrcs = 0;
-
+static unsigned int defaultfg  = 257;
+static unsigned int defaultbg  = 256;
+static unsigned int defaultcs  = 258;
+static unsigned int defaultrcs = 259;
 /*
  * Default shape of cursor
  * 2: Block ("█")
