@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
-static char font[] = "Roboto Mono:pixelsize=23:antialias=true:autohint=true";
+static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 6;
 
 /*
@@ -29,7 +29,8 @@ static char vtiden[] = "\033[?6c";
 // static float chscale = 1.15;
 
 // Roboto
-static float cwscale = 0.47;
+//static float cwscale = 0.47;
+static float cwscale = 0.95;
 static float chscale = 1.3;
 
 // Source Code Pro
