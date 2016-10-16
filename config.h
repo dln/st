@@ -7,7 +7,7 @@
  */
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
-static char font[] = "Roboto Mono:pixelsize=14";
+static char font[] = "Roboto Mono:pixelsize=20";
 static int borderpx = 6;
 
 /*
