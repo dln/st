@@ -103,8 +103,8 @@ static const char *colorname[] = {
 	[255] = 0,
 	[256] = "#fafafa",		/* 256: Background */
 	[257] = "#1d1d1c",		/* 257: Foreground */
-	[258] = "#16aec9",		/* 258: Cursor */
-	[259] = "#2d2d2c",		/* 259: Cursor Text */
+	[258] = "#ffaf00",		/* 258: Cursor */
+	[259] = "#000000",		/* 259: Cursor Text */
 	/* No support for text highlight coloring; would be #4e4e4e. */
 	/* No support for highlight coloring; would be #c1c1c1. */
 	/* No support for bold coloring; would be #29363d. */
