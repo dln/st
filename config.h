@@ -32,7 +32,7 @@ static char vtiden[] = "\033[?6c";
 // Roboto
 //static float cwscale = 0.47;
 static float cwscale = 0.95;
-static float chscale = 1.3;
+static float chscale = 1.15;
 
 // Source Code Pro
 // static float cwscale = 0.95;
