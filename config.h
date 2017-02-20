@@ -81,29 +81,29 @@ static unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#212121",		/* 0: ANSI Color 0 */
-	"#b7141e",		/* 1: ANSI Color 1 */
-	"#457b23",		/* 2: ANSI Color 2 */
-	"#fc7b08",		/* 3: ANSI Color 3 */
-	"#134eb2",		/* 4: ANSI Color 4 */
-	"#550087",		/* 5: ANSI Color 5 */
-	"#0e707c",		/* 6: ANSI Color 6 */
-	"#eeeeee",		/* 7: ANSI Color 7 */
+  "#282a2e",  /* ANSI Color 0 */
+  "#a54242",  /* ANSI Color 1 */
+  "#8c9440",  /* ANSI Color 2 */
+  "#de935f",  /* ANSI Color 3 */
+  "#5f819d",  /* ANSI Color 4 */
+  "#85678f",  /* ANSI Color 5 */
+  "#5e8d87",  /* ANSI Color 6 */
+  "#707880",  /* ANSI Color 7 */
 
 	/* 8 bright colors */
-	"#424242",		/* 8: ANSI Color 8 */
-	"#e83a3f",		/* 9: ANSI Color 9 */
-	"#7aba39",		/* 10: ANSI Color 10 */
-	"#fc8e08",		/* 11: ANSI Color 11 */
-	"#53a4f3",		/* 12: ANSI Color 12 */
-	"#a94dbb",		/* 13: ANSI Color 13 */
-	"#26bad1",		/* 14: ANSI Color 14 */
-	"#d8d8d8",		/* 15: ANSI Color 15 */
+  "#373b41",  /* ANSI Color 8 */
+  "#cc6666",  /* ANSI Color 9 */
+  "#b5bd68",  /* ANSI Color 10 */
+  "#f0c674",  /* ANSI Color 11 */
+  "#81a2be",  /* ANSI Color 12 */
+  "#b294bb",  /* ANSI Color 13 */
+  "#8abeb7",  /* ANSI Color 14 */
+  "#c5c8c6",  /* ANSI Color 15 */
 
 	[255] = 0,
-	[256] = "#fafafa",		/* 256: Background */
-	[257] = "#1d1d1c",		/* 257: Foreground */
-	[258] = "#ffaf00",		/* 258: Cursor */
+	[256] = "#1d1f21",		/* 256: Background */
+	[257] = "#c5c8c6",		/* 257: Foreground */
+	[258] = "#c5c8c6",		/* 258: Cursor */
 	[259] = "#000000",		/* 259: Cursor Text */
 	/* No support for text highlight coloring; would be #4e4e4e. */
 	/* No support for highlight coloring; would be #c1c1c1. */
