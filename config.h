@@ -7,7 +7,8 @@
  */
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
-static char font[] = "Roboto Mono:pixelsize=20";
+// static char font[] = "Roboto Mono:pixelsize=20";
+static char font[] = "Source Code Pro-17";
 static int borderpx = 6;
 
 /*
@@ -31,12 +32,12 @@ static char vtiden[] = "\033[?6c";
 
 // Roboto
 //static float cwscale = 0.47;
-static float cwscale = 0.95;
-static float chscale = 1.15;
+// static float cwscale = 0.95;
+// static float chscale = 1.15;
 
 // Source Code Pro
-// static float cwscale = 0.95;
-// static float chscale = 1.2;
+static float cwscale = 0.9;
+static float chscale = 1.0;
 
 /*
  * word delimiter string
