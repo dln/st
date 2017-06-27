@@ -8,8 +8,8 @@
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=20";
-static char font[] = "Source Code Pro-17";
-static int borderpx = 6;
+static char font[] = "Source Code Pro-16";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
