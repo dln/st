@@ -8,7 +8,7 @@
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=20";
-static char font[] = "Source Code Pro-16";
+static char font[] = "Source Code Pro:size=10.25";
 static int borderpx = 0;
 
 /*
