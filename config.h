@@ -8,7 +8,7 @@
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
 // static char font[] = "Roboto Mono:pixelsize=20";
-static char font[] = "Source Code Pro:size=10.25";
+static char font[] = "PragmataPro:size=16";
 static int borderpx = 0;
 
 /*
@@ -36,8 +36,8 @@ static char vtiden[] = "\033[?6c";
 // static float chscale = 1.15;
 
 // Source Code Pro
-static float cwscale = 0.9;
-static float chscale = 1.0;
+static float cwscale = 1.0;
+static float chscale = 1.325;
 
 /*
  * word delimiter string
@@ -104,7 +104,7 @@ static const char *colorname[] = {
 	[255] = 0,
 	[256] = "#fafafa",		/* 256: Background */
 	[257] = "#1d1d1c",		/* 257: Foreground */
-	[258] = "#ffaf00",		/* 258: Cursor */
+	[258] = "#dd0000",		/* 258: Cursor */
 	[259] = "#000000",		/* 259: Cursor Text */
 	/* No support for text highlight coloring; would be #4e4e4e. */
 	/* No support for highlight coloring; would be #c1c1c1. */
